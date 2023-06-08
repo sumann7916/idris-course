@@ -1,3 +1,5 @@
+module Booleans
+
 namespace Booleans
 
 not: (b: Bool) -> Bool
@@ -59,3 +61,4 @@ test_andb33 = Refl
 
 test_andb34 : (andb3 True True False) = False
 test_andb34 = Refl
+
